@@ -1,12 +1,14 @@
 .navbar{
   background-color: #00B0F0;
 }
+
 .icon{
   height:12em;
 
 }
 
-li{
+ .pagination > li,
+ .img-container >li{
   display: inline;
 }
 
@@ -16,10 +18,14 @@ li{
 .navbar-default .navbar-header .navbar-brand{
   color: white;  /*Sets the text hover color on navbar*/
 }
-.pagination >li>a{
-  background-color: #1278A8;
+.second-navbar >li>a{
+
   color:white;
   font-size: 11px;
+}
+
+a.dropdown:hover{
+  display: block;
 }
 
 .img-container>li>img{
