@@ -1,5 +1,6 @@
 .navbar{
   background-color: #00B0F0;
+
 }
 
 .icon{
@@ -18,15 +19,18 @@
 .navbar-default .navbar-header .navbar-brand{
   color: white;  /*Sets the text hover color on navbar*/
 }
-.second-navbar >li>a{
-
+.second-navbar >li{
   color:white;
-  font-size: 11px;
+  font-size: 9px;
+
+
+}
+.second-navbar{
+  min-height: 1px !important;
+
 }
 
-a.dropdown:hover{
-  display: block;
-}
+
 
 .img-container>li>img{
 
@@ -34,4 +38,20 @@ a.dropdown:hover{
   border-style:solid;
   border-width: thin;
   border-color:black;
+}
+
+.menu:hover>.submenu{
+  display: block;
+}
+
+.submenu{
+  display: none;
+  color:black;
+  float:right;
+   margin-top: 0px;
+   margin-right: -20px;
+   background:white;
+   border-style:solid;
+   border-color:black
+
 }
