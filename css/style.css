@@ -45,13 +45,28 @@
 }
 
 .submenu{
+  position: absolute;
+  left:100%;
+  margin-top:-2em;
   display: none;
   color:black;
   float:right;
-   margin-top: 0px;
-   margin-right: -20px;
-   background:white;
-   border-style:solid;
-   border-color:black
+  background:white;
+  z-index: 1000;
 
+  border-style: solid;
+  border-color:black;
+  border-width:thin;
+  border-radius:2%;
+}
+
+.list-group-item{
+  border-color:transparent !important;
+}
+.list-group-item:hover{
+  background-color: #FCECEC;
+  
+}
+.list-group-item>a:link{
+  color:black;
 }
